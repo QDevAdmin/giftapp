@@ -10,7 +10,7 @@ function App() {
 
     return (
         <>
-            <a>{tg.initData}</a>
+            <a>{tg.colorScheme}</a>
             <div>
                 <a href="https://vite.dev" target="_blank">
                     <img src={viteLogo} className="logo" alt="Vite logo"/>
