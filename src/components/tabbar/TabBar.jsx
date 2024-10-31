@@ -9,11 +9,11 @@ const TabBar = () => {
         <div style={{
             position: 'fixed',
             bottom: '0',
-            padding: '8px 0 32px',
+            padding: '8px 0 28px',
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-evenly',
-            color: '#F1F1F2BF',
+            background: '#F1F1F2BF',
             width: '100%',
             borderTop: 'solid 0.33px #3C3C435C',
         }}>

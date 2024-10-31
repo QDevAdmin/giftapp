@@ -9,7 +9,7 @@ const TabBarButton = (props) => {
             borderColor: 'transparent',
             background: 'transparent'
         }}>
-            <img src={props.icon} alt={'Иконка'} width={'26px'} height={'26px'}></img>
+            <img src={props.icon} alt={'Иконка'} width={'26px'} height={'26px'} style={{pointerEvents: 'none'}}></img>
             <p style={{
                 fontWeight: '500',
                 fontSize: '10px',

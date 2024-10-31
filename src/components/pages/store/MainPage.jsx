@@ -3,9 +3,20 @@ import TabBar from "../../tabbar/TabBar.jsx";
 
 const Header = () => {
     return (
-        <div style={{display: 'flex', flexDirection: 'column', gap: '8px', padding: '24px 0 16px', alignItems: 'center'}}>
-            <div style={{display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'center'}}>
-                <img src={giftIcon} alt={'Иконка'} width={'44px'} height={'48px'}></img>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '8px',
+            padding: '24px 0 16px',
+            alignItems: 'center'
+        }}>
+            <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '16px',
+                alignItems: 'center'
+            }}>
+                <img src={giftIcon} alt={'Иконка'} width={'44px'} height={'48px'} style={{pointerEvents: 'none'}}></img>
                 <p style={{
                     fontWeight: '600',
                     fontSize: '24px',
@@ -27,10 +38,10 @@ const Header = () => {
 
 const MainPage = () => {
     return (
-        <>
+        <div style={{background: 'white'}}>
             <Header/>
             <TabBar/>
-        </>
+        </div>
     );
 };
 
