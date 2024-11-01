@@ -7,6 +7,7 @@ const App = () => {
     tg.setHeaderColor('#ffffff');
     tg.setBackgroundColor('#ffffff');
     tg.setBottomBarColor('#ffffff');
+    tg.expand();
 
     // disable context menu
     useEffect(() => {
