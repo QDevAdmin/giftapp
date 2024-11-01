@@ -12,7 +12,7 @@ const TabBar = () => {
             padding: '8px 0 8px',
             display: 'flex',
             flexDirection: 'row',
-            justifyContent: 'space-evenly',
+            justifyContent: 'space-around',
             background: '#F1F1F2BF',
             width: '100%',
             borderTop: 'solid 0.33px #3C3C435C',
