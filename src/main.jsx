@@ -20,8 +20,24 @@ const GlobalStyle = createGlobalStyle`
     
     html, body, root {
         background: white;
+        overflow: hidden;
+        overscroll-behavior: none;
+    }
+
+    root {
+        overflow-y: auto;
     }
 `;
+
+if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', () => {
+        document.body.style.height = window.visualViewport.height + 'px';
+    });
+}
+// This will ensure user never overscroll the page
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) window.scrollTo(0, 0);
+});
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
