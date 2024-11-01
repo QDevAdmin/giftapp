@@ -13,11 +13,10 @@ const TabBar = () => {
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-around',
-            background: '#F1F1F2BF',
+            // background: '#F1F1F2BF',
+            background: '#F1F1F2',
             width: '100%',
-            borderTop: 'solid 0.33px #3C3C435C',
-            backdropFilter: 'blur(4px)',
-            webkitBackdropFilter: 'blur(4px)'
+            borderTop: '0.33px solid #3C3C435C'
         }}>
             <TabBarButton icon={storeIcon} title={'Store'}/>
             <TabBarButton icon={giftsIcon} title={'Gifts'}/>
