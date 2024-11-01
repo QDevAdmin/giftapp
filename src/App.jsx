@@ -4,9 +4,9 @@ import MainPage from "./components/pages/store/MainPage.jsx";
 const App = () => {
     const tg = window.Telegram.WebApp;
 
-    tg.setHeaderColor('#ffffff');
-    tg.setBackgroundColor('#ffffff');
-    tg.setBottomBarColor('#F1F1F2BF');
+    tg.setHeaderColor('#FFFFFF');
+    tg.setBackgroundColor('#FFFFFF');
+    tg.setBottomBarColor('#F1F1F2');
 
     // disable context menu
     useEffect(() => {
