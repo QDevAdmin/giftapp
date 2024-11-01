@@ -38,8 +38,73 @@ const Header = () => {
 
 const MainPage = () => {
     return (
-        <div style={{background: 'white', height: '100vh'}}>
+        <div style={{background: 'white', height: '100vh', overscrollBehaviorY: 'auto', overflowY: 'auto'}}>
             <Header/>
+            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
+                <p>test1</p>
+                <p>test2</p>
+                <p>test3</p>
+                <p>test4</p>
+                <p>test6</p>
+                <p>test7</p>
+                <p>test8</p>
+                <p>test9</p>
+                <p>test0</p>
+                <p>test1</p>
+                <p>test2</p>
+                <p>test3</p>
+                <p>test4</p>
+                <p>test6</p>
+                <p>test7</p>
+                <p>test8</p>
+                <p>test9</p>
+                <p>test0</p>
+                <p>test1</p>
+                <p>test2</p>
+                <p>test3</p>
+                <p>test4</p>
+                <p>test6</p>
+                <p>test7</p>
+                <p>test8</p>
+                <p>test9</p>
+                <p>test0</p>
+                <p>test1</p>
+                <p>test2</p>
+                <p>test3</p>
+                <p>test4</p>
+                <p>test6</p>
+                <p>test7</p>
+                <p>test8</p>
+                <p>test9</p>
+                <p>test0</p>
+                <p>test1</p>
+                <p>test2</p>
+                <p>test3</p>
+                <p>test4</p>
+                <p>test6</p>
+                <p>test7</p>
+                <p>test8</p>
+                <p>test9</p>
+                <p>test0</p>
+                <p>test1</p>
+                <p>test2</p>
+                <p>test3</p>
+                <p>test4</p>
+                <p>test6</p>
+                <p>test7</p>
+                <p>test8</p>
+                <p>test9</p>
+                <p>test0</p>
+                <p>test1</p>
+                <p>test2</p>
+                <p>test3</p>
+                <p>test4</p>
+                <p>test6</p>
+                <p>test7</p>
+                <p>test8</p>
+                <p>test9</p>
+                <p>test0</p>
+            </div>
             <TabBar/>
         </div>
     );

@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "giftapp",
   plugins: [react()],
+  server: {
+    // Exposes your dev server and makes it accessible for the devices in the same network.
+    host: true,
+  },
 })
