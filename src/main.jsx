@@ -17,6 +17,10 @@ const GlobalStyle = createGlobalStyle`
         user-select: none;
         -webkit-tap-highlight-color: transparent;
     }
+    
+    html, body, root {
+        background: white;
+    }
 `;
 
 createRoot(document.getElementById('root')).render(
