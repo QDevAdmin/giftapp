@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
+        -webkit-tap-highlight-color: transparent;
     }
 `;
 

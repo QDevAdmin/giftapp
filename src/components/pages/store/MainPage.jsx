@@ -38,7 +38,7 @@ const Header = () => {
 
 const MainPage = () => {
     return (
-        <div style={{background: 'white'}}>
+        <div style={{background: 'white', height: '100vh'}}>
             <Header/>
             <TabBar/>
         </div>
