@@ -9,7 +9,7 @@ const TabBar = () => {
         <div style={{
             position: 'fixed',
             bottom: '0',
-            padding: '8px 0 8px',
+            padding: '8px 0 28px',
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-around',
